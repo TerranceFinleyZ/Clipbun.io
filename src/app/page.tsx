@@ -268,19 +268,19 @@ export default function HomePage() {
               {
                 name: "Starter", price: 9.99, period: "/month",
                 description: "Perfect for new creators just getting started.",
-                features: ["3 Anime Clips", "30-Sec Long", "720p quality", "TikTok & YouTube ready", "Commercial license"],
+                features: ["3 Anime Clips / Per month", "30-Sec Long", "720p quality", "TikTok & YouTube ready", "Commercial license"],
                 cta: "Get Started", highlight: false, badge: null, link: "https://buy.stripe.com/eVqbJ1buxdKA5d541kgEg01",
               },
               {
                 name: "Creator", price: 24.99, period: "/month",
                 description: "Most popular for growing content creators.",
-                features: ["5 Anime Clips", "1-Min Long", "1080p quality", "TikTok, YouTube & Reels", "Commercial license", "Priority new releases", "Bonus effects pack"],
+                features: ["5 Anime Clips / Per month", "1-Min Long", "1080p quality", "TikTok, YouTube & Reels", "Commercial license", "Priority new releases", "Bonus effects pack"],
                 cta: "Go Creator", highlight: true, badge: "Most Popular", link: "https://buy.stripe.com/aFa3cv9mp9uk0WPfK2gEg02",
               },
               {
                 name: "Pro", price: 49.99, period: "/month",
                 description: "For serious creators who post Long form content.",
-                features: ["3 Videos 10-Min Long", "3 High Quality Thumbnails", "4K quality", "All platforms", "Commercial license", "Early access to new drops", "Custom thumbnail request", "Discord community access"],
+                features: ["3 Videos 10-Min Long / Per month", "3 High Quality Thumbnails", "4K quality", "All platforms", "Commercial license", "Early access to new drops", "Custom thumbnail request", "Discord community access"],
                 cta: "Go Pro", highlight: false, badge: "Best Value", link: "https://buy.stripe.com/5kQaEX9mp8qgcFx8hAgEg00",
               },
             ].map((plan) => (
