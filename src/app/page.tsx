@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ProductCard from "@/components/ProductCard";
 
 const featuredClips = [
@@ -347,35 +348,31 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Banner */}
+      {/* Summer Sale Banner */}
       <section className="py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="relative rounded-3xl overflow-hidden bg-gradient-to-br from-purple-800/60 to-pink-700/60 border border-purple-600/30 p-12 text-center">
-            <div className="absolute inset-0 shimmer opacity-30" />
-            <div className="relative z-10">
-              <h2 className="text-3xl sm:text-4xl font-black text-white mb-4">Start Growing Today</h2>
-              <p className="text-purple-200 text-lg mb-8 max-w-lg mx-auto">
-                Join thousands of creators who are already using Clipbun.io to go viral every week.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href="https://buy.stripe.com/eVqbJ1buxdKA5d541kgEg01"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-8 py-4 rounded-full bg-white text-purple-700 font-bold text-lg hover:bg-purple-50 transition-colors hover:scale-105 transform"
-                >
-                  Plans from $9.99/mo
-                </a>
-                <a
-                  href="https://buy.stripe.com/5kQaEX9mp8qgcFx8hAgEg00"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-8 py-4 rounded-full border-2 border-white/50 text-white font-semibold text-lg hover:bg-white/10 transition-colors"
-                >
-                  Get Thumbnails
-                </a>
-              </div>
+        <div className="max-w-md mx-auto">
+          <div className="relative rounded-2xl bg-[#12121a] border border-yellow-500/40 shadow-[0_0_60px_rgba(234,179,8,0.15)] p-10 text-center">
+            <span className="inline-block mb-4 px-3 py-1 rounded-full bg-yellow-500/20 text-yellow-400 text-xs font-semibold tracking-widest uppercase">
+              Limited Time Offer
+            </span>
+            <div className="flex items-center justify-center gap-3 mb-2">
+              <Image src="/clipbunlogo.png" alt="Clipbun" width={40} height={40} className="rounded-lg" />
+              <h2 className="text-3xl font-extrabold text-white">Summer Sale</h2>
             </div>
+            <p className="text-yellow-400 text-4xl font-black mb-1">$250</p>
+            <p className="text-gray-300 text-base mb-6">
+              per&nbsp;<span className="text-white font-semibold">25-minute YouTube video</span>
+              <br />
+              <span className="text-gray-400 text-sm">Professional editing · Fast turnaround</span>
+            </p>
+            <a
+              href="https://ytjobs.co/talent/profile/553169"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block w-full py-3 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-black font-bold text-lg transition-colors shadow-lg shadow-yellow-500/30"
+            >
+              Get Discount
+            </a>
           </div>
         </div>
       </section>

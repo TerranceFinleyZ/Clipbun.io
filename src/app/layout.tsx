@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import SummerSalePopup from "@/components/SummerSalePopup";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-[#0a0a0f] text-white">
         <Navbar />
+        <SummerSalePopup />
         <main className="flex-1 pt-16">{children}</main>
         <Footer />
       </body>
