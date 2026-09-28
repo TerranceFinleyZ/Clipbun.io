@@ -34,11 +34,11 @@ export default function SummerSalePopup() {
         {/* Headline */}
         <div className="flex items-center justify-center gap-3 mb-2">
           <Image src="/clipbunlogo.png" alt="Clipbun" width={40} height={40} className="rounded-lg" />
-          <h2 className="text-3xl font-extrabold text-white">Summer Sale</h2>
+          <h2 className="text-3xl font-extrabold text-white">Winter Discount</h2>
         </div>
-        <p className="text-yellow-400 text-4xl font-black mb-1">$250</p>
+        <p className="text-yellow-400 text-4xl font-black mb-1">$25 Off</p>
         <p className="text-gray-300 text-base mb-6">
-          per&nbsp;<span className="text-white font-semibold">25-minute YouTube video</span>
+          on&nbsp;<span className="text-white font-semibold">every 25-minute YouTube video</span>
           <br />
           <span className="text-gray-400 text-sm">Professional editing · Fast turnaround</span>
         </p>
